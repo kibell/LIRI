@@ -20,10 +20,12 @@
 
 - Place various screens of your app here after they have been built
 -Spotify Request
-![](spotZoom.gif)
+-![](spotZoom.gif)
 
 -OMDB Request
-![](movieZoom.gif)
+-![](movieZoom.gif)
+
+
 -Band Request
 
 ## Tech Stack
