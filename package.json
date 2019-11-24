@@ -2,7 +2,7 @@
   "name": "LIRI",
   "version": "1.0.0",
   "description": "CLI application for finding some movies and events",
-  "main": "index.js",
+  "main": "liri.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,13 +11,10 @@
     "url": "git+https://github.com/kibell/LIRI.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kitrick Bell",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kibell/LIRI/issues"
   },
-  "homepage": "https://github.com/kibell/LIRI#readme",
-  "dependencies": {
-    "dotenv": "^8.2.0"
-  }
+  "homepage": "https://github.com/kibell/LIRI#readme"
 }
