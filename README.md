@@ -19,7 +19,7 @@
 ## Animated Gifs/Pictures of App
 
 - Place various screens of your app here after they have been built
-![](spotifyWalkthrough.gif)
+![](spotZoom.gif)
 
 ## Tech Stack
 
