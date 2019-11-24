@@ -19,11 +19,21 @@
 ## Animated Gifs/Pictures of App
 
 - Place various screens of your app here after they have been built
--Spotify Request
+## Spotify Request
+
+
 -![](spotZoom.gif)
 
--OMDB Request
+
+
+
+## OMDB Request
+
+
 -![](movieZoom.gif)
+
+
+
 
 
 -Band Request
