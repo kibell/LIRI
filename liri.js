@@ -39,6 +39,9 @@ switch(action){
    
     movie();
     break;
+
+    default:
+      console.log("Sorry I do not understand what you want from me! Try again")
     
 
 }
@@ -87,7 +90,11 @@ axios.get(movieUrl).then(
 function concert(){
     axios.get(concertUrl).then(
         function(response) {
-          console.log(response.data[0].artist.name);
+          
+          console.log("Artist: " + response.data[0].artist.name);
+         console.log("Venue: "+ response.data[0].venue.name)
+            console.log("City: "+ response.data[0].venue.city) 
+            console.log("Country: "+ response.data[0].venue.country)
         })
         .catch(function(error) {
           if (error.response) {
@@ -118,14 +125,9 @@ function concert(){
 function spot(){
 
 //not working ask questions
-    if(event == null){
+    if(event === ""){
         event = "humble";
-   };
-
-    
-
-
-    spotify.search({ type: "track", query: event }, function(err, result) {
+   } spotify.search({ type: "track", query: event }, function(err, result) {
        
 
         if (err) {
@@ -143,3 +145,4 @@ function spot(){
 });
 
 }
+
